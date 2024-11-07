@@ -41,7 +41,7 @@ jobs:
         scribe-enable: true
         components: commits,packages,files,dep
         product-key: "scribe-demo-prod-v1773"
-        product-version: ${{ env.PRODUCT_VERSION }}
+        product-version: "version_prod_sprint37"
         scribe-client-secret: ${{ secrets.SCRIBE_TOKEN }}
         label: is_git_commit
         format: attest
